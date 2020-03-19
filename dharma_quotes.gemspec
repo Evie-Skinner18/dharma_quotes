@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
     spec.name        = 'dharma_quotes'
     spec.version     = '1.0.0'
-    spec.date        = '19-03-2020'
+    spec.date        = '2020-03-19'
     spec.author      = 'Evie Skinner'
     spec.email       = 'ohowkind@gmail.com'
   
