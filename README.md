@@ -1,4 +1,4 @@
-# Dharma Quotes 0.0.0
+# Dharma Quotes 1.0.0
 
 ## Well namaste, it's the Ruby library of Dharma quotes!
 
