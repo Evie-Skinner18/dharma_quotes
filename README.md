@@ -4,7 +4,6 @@
 
 ## How to Install
 In your command line, run the following command:
-```bash
 `bundler install dharma_quotes`
 
 ## Usage
