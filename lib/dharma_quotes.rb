@@ -8,15 +8,14 @@ class DharmaQuotes
     def initialize
         @dhammapada_quotes = Dhammapada.new.quotes
         @other_texts_quotes = OtherTexts.new.quotes
-        @dhammapada_and_other_texts_quotes = @dhammapada_quotes.concat(@other_texts_quotes)
-
         @four_noble_truths = FourNobleTruths.new.quotes
         @parts_of_eightfold_path = NobleEightfoldPath.new.quotes    
     end
 
     # pick a random quote
     def get_quote
-        @dhammapada_and_other_texts_quotes.sample
+        dhammapada_and_other_texts_quotes = @dhammapada_quotes.concat(@other_texts_quotes)
+        dhammapada_and_other_texts_quotes.sample
     end
 
     # pick a random dhammapada quote
