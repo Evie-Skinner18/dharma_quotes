@@ -9,9 +9,7 @@ Gem::Specification.new do |spec|
     spec.description = 'dharma_quotes is a cheerful library of quotes from Buddhist texts. It provides functionality
                         to run methods that return random quotes from the Dharma.'
     spec.homepage    = 'https://github.com/Evie-Skinner18/dharma_quotes'
-    spec.license     = 'MIT'
-    spec.homepage    = 'https://rubygems.org/gems/dharma_quotes'
-  
+    spec.license     = 'MIT'  
     spec.files         = Dir['lib/**/*'] + %w[LICENCE.md README.md]
     spec.required_ruby_version = '>= 2.3'
     
