@@ -15,7 +15,12 @@ class Dhammapada
         Mind is the forerunner of all actions.
         All deeds are led by mind, created by mind.
         If one speaks or acts with a serene mind, happiness follows,
-        As surely as one\'s shadow. - The Dhammapada'
+        As surely as one\'s shadow. - The Dhammapada',
+        '
+        By oneself the evil is done, by oneself one suffers.
+        By oneself evil is left undone, by oneself one is purified.
+        The pure and the impure (stand and fall) by themselves: no one can purify another.
+        ',
     ]
    end
 
