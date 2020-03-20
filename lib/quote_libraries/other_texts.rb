@@ -2,7 +2,8 @@ class OtherTexts
     def initialize
         @quotes = 
         [
-            'On whom the heart insinctively rests,
+            '
+            On whom the heart insinctively rests,
             In whom the spirit finds delight,
             With him, though one ne\'er seen before,
             Safely in friendship one may dwell. - The Jataka
@@ -29,5 +30,9 @@ class OtherTexts
             Is not born again in this world. - Morning and Evening Puja and Reflections
             '
         ]
+    end
+
+    def quotes
+        @quotes
     end
 end
