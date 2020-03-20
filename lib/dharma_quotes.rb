@@ -1,47 +1,31 @@
+require_relative './quote_libraries/dhammapada.rb'
+require_relative './quote_libraries/other_texts.rb'
+require_relative './quote_libraries/four_noble_truths.rb'
+require_relative './quote_libraries/noble_eightfold_path.rb'
+
+
 class DharmaQuotes
     def initialize
-        @quotes = 
-        [
-            '
-            Animosity does not eradicate animosity. 
-            Only by loving kindness is animosity dissolved. 
-            This law is ancient and eternal.',
-            '
-            Mind is a forerunner of all actions.
-            All deeds are led by mind, created by mind.
-            If one speaks or acts with corrupt mind,
-            suffering follows,
-            As the wheel follows the hoof of an ox pulling a cart.',
-            '
-            Mind is the forerunner of all actions.
-            All deeds are led by mind, created by mind.
-            If one speaks or acts with a serene mind,
-            happiness follows,
-            As surely as one\'s shadow.'
-        ]
-        @parts_of_eightfold_path = 
-        [
-            'Samma Ditthi: right understanding',
-            'Samma Sankappa: right thought',
-            'Samma Vaca: right speech',
-            'Samma Kammanta: right action',
-            'Samma Ajiva: right livelihood',
-            'Samma Vayama: right effort',
-            'Samma Sati: right mindfulness',
-            'Samma Samadhi: right concentration'
-        ]
-        @four_noble_truths = 
-        [
-            'To live is to suffer.',
-            'There is a cause to our suffering, and that is desire.',
-            'We can end this suffering.',
-            'The way to end our suffering is by following the Noble Eightfold Path.'
-        ]
+        @dhammapada_quotes = Dhammapada.new.quotes
+        @other_texts_quotes = OtherTexts.new.quotes
+        @four_noble_truths = FourNobleTruths.new.quotes
+        @parts_of_eightfold_path = NobleEightfoldPath.new.quotes    
     end
 
     # pick a random quote
     def get_quote
-        @quotes.sample
+        dhammapada_and_other_texts_quotes = @dhammapada_quotes.concat(@other_texts_quotes)
+        dhammapada_and_other_texts_quotes.sample
+    end
+
+    # pick a random dhammapada quote
+    def get_dhammapada_quote
+        @dhammapada_quotes.sample
+    end
+
+    # pick a random quote from other texts
+    def get_quote_from_other_texts
+        @other_texts_quotes.sample
     end
 
     # pick one of the parts of the eightfold path

@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
     spec.name        = 'dharma_quotes'
     spec.version     = '1.0.0'
-    spec.date        = '2020-03-19'
+    spec.date        = '2020-03-20'
     spec.author      = 'Evie Skinner'
     spec.email       = 'ohowkind@gmail.com'
   
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
     spec.license     = 'MIT'
     spec.homepage    = 'https://rubygems.org/gems/dharma_quotes'
   
-    spec.files         = ['lib/dharma_quotes.rb'] + %w[LICENCE.md README.md]
+    spec.files         = Dir['lib/**/*'] + %w[LICENCE.md README.md]
     spec.required_ruby_version = '>= 2.3'
     
     spec.add_development_dependency('rspec', '~> 3.7')
