@@ -1,6 +1,6 @@
-# Dharma Quotes 1.0.0
+# Dharma Quotes 1.0.1
 
-## Well namaste, it's the Ruby library of Dharma quotes!
+## Well namaste, it's the Ruby library of Dharma quotes! :heart:
 
 ## How to Install
 In your command line, run the following command:
