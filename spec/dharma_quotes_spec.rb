@@ -1,7 +1,7 @@
 require 'dharma_quotes'
 
 RSpec.describe DharmaQuotes do
-    describe 'get_quote' do
+    describe '::get_quote' do
         it 'returns a random quote that is not Nil' do
             dharma_quotes = DharmaQuotes.new
             random_quote = dharma_quotes.get_quote
@@ -97,6 +97,26 @@ RSpec.describe DharmaQuotes do
             dharma_quotes = DharmaQuotes.new
             noble_truth = dharma_quotes.get_noble_truth
             expect(noble_truth).to be_an_instance_of(String)
+        end
+    end
+
+    describe '::get_pema_chodron_quote' do
+        it 'returns a random Pema Chodron quote' do
+            dharma_quotes = DharmaQuotes.new
+            pema_chodron_quote = dharma_quotes.get_pema_chodron_quote
+            expect(pema_chodron_quote).to include('Pema Chodron')
+        end
+
+        it 'returns a random quote that is not Nil' do
+            dharma_quotes = DharmaQuotes.new
+            pema_chodron_quote = dharma_quotes.get_pema_chodron_quote
+            expect(pema_chodron_quote).not_to equal(nil)
+        end
+
+        it 'returns a string' do
+            dharma_quotes = DharmaQuotes.new
+            pema_chodron_quote = dharma_quotes.get_pema_chodron_quote
+            expect(pema_chodron_quote).to be_an_instance_of(String)
         end
     end
 end
