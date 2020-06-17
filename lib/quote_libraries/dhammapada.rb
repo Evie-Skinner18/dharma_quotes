@@ -2,8 +2,7 @@ class Dhammapada
    def initialize
     @dhammapada_quotes = 
     [
-        '
-        Animosity does not eradicate animosity. 
+        'Animosity does not eradicate animosity. 
         Only by loving kindness is animosity dissolved. 
         This law is ancient and eternal. - The Dhammapada',
         '
