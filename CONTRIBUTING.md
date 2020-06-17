@@ -23,6 +23,7 @@ rspec
 Has your contribution caused any of them to break? If so, please fix their poor lil broken hearts :<
 
 Don't forget to keep testing as you go until all of them pass.
+
 7. Add your name to cool_dudes.md!
 8. When you've finished contributing, run these commands in your command line:
 ``` bash
