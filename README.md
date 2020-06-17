@@ -25,4 +25,7 @@ noble_truth = dharma_quotes.get_noble_truth
 part_of_noble_eightfold_path = dharma_quotes.get_part_of_eightfold_path
 ```
 
+## Contributing
+See 'CONTRIBUTING.md' for instructions.
+
 ## Enjoy life!
