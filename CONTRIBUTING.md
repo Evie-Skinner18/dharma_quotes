@@ -15,8 +15,8 @@ cd dharma_quotes
 ``` bash
 rspec
 ```
-5. Make your contribution! Maybe start by adding a quote to one of the existing quote libraries. Don't git commit just yet though...
-6. Rerun all the tests
+5. Make your contribution! Maybe start by adding a quote to one of the existing quote libraries. 
+6. Don't git commit just yet though, Rerun all the tests
 ``` bash
 rspec
 ```
