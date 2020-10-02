@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative '../lib/dharma_quotes'
+
+dharma_quotes = DharmaQuotes.new
+
+random_quote = case ARGV[0]
+when 'dhammapada'
+  dharma_quotes.get_dhammapada_quote
+when 'misc'
+  dharma_quotes.get_quote_from_other_texts
+when 'noble_truth'
+  dharma_quotes.get_noble_truth
+when 'part_of_noble_eightfold_path'
+  dharma_quotes.get_part_of_eightfold_path
+when 'pema_chodron'
+  dharma_quotes.get_pema_chodron_quote
+when '-h' || '--help'
+%(
+argument can be:
+  * dhammapada
+  * misc
+  * noble_truth
+  * part_of_noble_eightfold_path
+  * pema_chodron
+
+Examples:
+  $> quote
+  $> quote nomble_truth
+  $> quote pema_chodron
+)
+else
+  dharma_quotes.get_quote
+end
+
+puts random_quote
