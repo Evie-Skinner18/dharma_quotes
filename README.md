@@ -1,5 +1,5 @@
 # Dharma Quotes 1.1.0
-## Happy Hacktoberfest everyone! I will push a new release of the gem on rubygems.org at the end of October (so all your contributions can go in the new version) 
+## Happy Hacktoberfest everyone! I will push a new release of the gem on rubygems.org at the beginning of November (so all your contributions can go in the new version) :ghost: :skull: :fire:
 
 
 ## Well namaste, it's the Ruby library of Dharma quotes! :heart:
