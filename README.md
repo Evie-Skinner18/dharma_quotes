@@ -20,6 +20,13 @@ dharma_quotes = DharmaQuotes.new
 random_quote = dharma_quotes.get_quote
 puts random_quote
 ```
+It's going to give you a quote for example:
+
+```
+Animosity does not eradicate animosity. 
+Only by loving kindness is animosity dissolved. 
+This law is ancient and eternal. - The Dhammapada'
+```
 
 You can be more specific too if you like! Ask for a quote from the Dhammapada; a quote from a miscellaneous source; or another option detailed below.
 ```ruby
