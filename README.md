@@ -1,5 +1,5 @@
 # Dharma Quotes 1.1.0
-## Happy Hacktoberfest everyone! I will push a new release of the gem on rubygems.org at the beginning of November (so all your contributions can go in the new version) :ghost: :skull: :fire:
+## Happy Hacktoberfest everyone! :jack_o_lantern: I will push a new release of the gem on rubygems.org at the beginning of November (so all your contributions can go in the new version) :ghost: :skull: :fire:
 
 
 ## Well namaste, it's the Ruby library of Dharma quotes! :heart:
@@ -10,7 +10,7 @@ New in this version:
 - More unit tests added
 - Contributing instructions added
 
-## How to Install
+## How to Install :computer:
 
 In your command line, run the following command:
 
@@ -53,7 +53,7 @@ pema_chodron_quote = dharma_quotes.get_pema_chodron_quote
 $> quote
 ```
 
-## Contributing
+## Contributing :handshake:
 
 See 'CONTRIBUTING.md' for instructions.
 
