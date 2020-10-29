@@ -45,6 +45,7 @@ misc_quote = dharma_quotes.get_quote_from_other_texts
 noble_truth = dharma_quotes.get_noble_truth
 part_of_noble_eightfold_path = dharma_quotes.get_part_of_eightfold_path
 pema_chodron_quote = dharma_quotes.get_pema_chodron_quote
+dalai_lama_quote = dharma_quotes.get_dalai_lama_quote
 ```
 
 ### From command line

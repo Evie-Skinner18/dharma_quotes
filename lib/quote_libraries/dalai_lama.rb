@@ -1,6 +1,6 @@
 class DalaiLama
     def initialize
-        @quotes =
+        @dalai_lama_quotes =
         [
             '
             The more honest you are,
@@ -21,6 +21,6 @@ class DalaiLama
     end
 
     def quotes
-        @quotes
+        @dalai_lama_quotes
     end
 end
