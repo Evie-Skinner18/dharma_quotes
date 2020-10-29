@@ -3,6 +3,7 @@ require_relative './quote_libraries/other_texts.rb'
 require_relative './quote_libraries/four_noble_truths.rb'
 require_relative './quote_libraries/noble_eightfold_path.rb'
 require_relative './quote_libraries/pema_chodron_books.rb'
+require_relative './quote_libraries/dalai_lama.rb'
 
 
 class DharmaQuotes
@@ -12,6 +13,7 @@ class DharmaQuotes
         @four_noble_truths = FourNobleTruths.new.quotes
         @parts_of_eightfold_path = NobleEightfoldPath.new.quotes
         @pema_chodron_quotes = PemaChodronBooks.new.quotes
+        @dalai_lama_quotes = DalaiLama.new.quotes
     end
 
     def get_quote
@@ -19,6 +21,7 @@ class DharmaQuotes
             .concat(@four_noble_truths)
             .concat(@parts_of_eightfold_path)
             .concat(@pema_chodron_quotes)
+            .concat(@dalai_lama_quotes)
 
         all_quotes.sample
     end
@@ -41,5 +44,9 @@ class DharmaQuotes
 
     def get_pema_chodron_quote
         @pema_chodron_quotes.sample
+    end
+
+    def get_dalai_lama_quote
+        @dalai_lama_quotes.sample
     end
 end
