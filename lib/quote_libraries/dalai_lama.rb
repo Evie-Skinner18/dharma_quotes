@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class DalaiLama
     def initialize
         @dalai_lama_quotes =
-        [
+          [
             '
             The more honest you are,
             The more open,
@@ -16,8 +18,8 @@ class DalaiLama
             '
             We need to learn to want what we have,
             Not to have what we want,
-            In order to get stable and steady happiness. - Dalai Lama',
-        ]
+            In order to get stable and steady happiness. - Dalai Lama'
+          ]
     end
 
     def quotes

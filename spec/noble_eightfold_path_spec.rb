@@ -1,4 +1,6 @@
-require_relative '../lib/quote_libraries/noble_eightfold_path.rb'
+# frozen_string_literal: true
+
+require_relative '../lib/quote_libraries/noble_eightfold_path'
 
 RSpec.describe NobleEightfoldPath do
     describe '::quotes' do

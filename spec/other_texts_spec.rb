@@ -1,4 +1,6 @@
-require_relative '../lib/quote_libraries/other_texts.rb'
+# frozen_string_literal: true
+
+require_relative '../lib/quote_libraries/other_texts'
 
 RSpec.describe OtherTexts do
     describe '::quotes' do

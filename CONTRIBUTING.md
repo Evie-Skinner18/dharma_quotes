@@ -11,14 +11,20 @@ git clone https://github.com/[ YOUR GITHUB USERNAME ]/dharma_quotes.git
 ``` bash
 cd dharma_quotes
 ```
-4. Run all the tests
+4. Install dev dependencies (bundler 2.1.2)
+``` bash
+bundle install
+```
+4. Run all the tests & cops
 ``` bash
 rspec
+rubocop
 ```
 5. Make your contribution! Maybe start by adding a quote to one of the existing quote libraries. Don't git commit just yet though...
-6. Rerun all the tests
+6. Rerun all the tests & cops
 ``` bash
 rspec
+rubocop
 ```
 Has your contribution caused any of them to break? If so, please fix their poor lil broken hearts :<
 

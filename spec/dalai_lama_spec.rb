@@ -1,4 +1,6 @@
-require_relative '../lib/quote_libraries/dalai_lama.rb'
+# frozen_string_literal: true
+
+require_relative '../lib/quote_libraries/dalai_lama'
 
 RSpec.describe DalaiLama do
     describe '::quotes' do

@@ -1,4 +1,6 @@
-require_relative '../lib/quote_libraries/pema_chodron_books.rb'
+# frozen_string_literal: true
+
+require_relative '../lib/quote_libraries/pema_chodron_books'
 
 RSpec.describe PemaChodronBooks do
     describe '::quotes' do

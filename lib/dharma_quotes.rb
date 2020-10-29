@@ -1,9 +1,11 @@
-require_relative './quote_libraries/dhammapada.rb'
-require_relative './quote_libraries/other_texts.rb'
-require_relative './quote_libraries/four_noble_truths.rb'
-require_relative './quote_libraries/noble_eightfold_path.rb'
-require_relative './quote_libraries/pema_chodron_books.rb'
-require_relative './quote_libraries/dalai_lama.rb'
+# frozen_string_literal: true
+
+require_relative './quote_libraries/dhammapada'
+require_relative './quote_libraries/other_texts'
+require_relative './quote_libraries/four_noble_truths'
+require_relative './quote_libraries/noble_eightfold_path'
+require_relative './quote_libraries/pema_chodron_books'
+require_relative './quote_libraries/dalai_lama'
 
 class DharmaQuotes
     def initialize
@@ -17,12 +19,12 @@ class DharmaQuotes
 
     def get_quote
         all_quotes = [
-            @dhammapada_quotes,
-            @other_texts_quotes,
-            @four_noble_truths,
-            @parts_of_eightfold_path,
-            @pema_chodron_quotes,
-            @dalai_lama_quotes
+          @dhammapada_quotes,
+          @other_texts_quotes,
+          @four_noble_truths,
+          @parts_of_eightfold_path,
+          @pema_chodron_quotes,
+          @dalai_lama_quotes
         ].flatten
 
         all_quotes.sample

@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class FourNobleTruths
     def initialize
-        @four_noble_truths = 
-        [
+        @four_noble_truths =
+          [
             '
             To live is to suffer.',
 
@@ -10,10 +12,10 @@ class FourNobleTruths
 
             '
             We can end this suffering.',
-            
+
             '
             The way to end our suffering is by following the Noble Eightfold Path.'
-        ]
+          ]
     end
 
     def quotes

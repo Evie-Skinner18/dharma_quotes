@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'dharma_quotes'
 
 RSpec.describe DharmaQuotes do
