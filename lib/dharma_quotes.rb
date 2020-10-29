@@ -5,7 +5,6 @@ require_relative './quote_libraries/noble_eightfold_path.rb'
 require_relative './quote_libraries/pema_chodron_books.rb'
 require_relative './quote_libraries/dalai_lama.rb'
 
-
 class DharmaQuotes
     def initialize
         @dhammapada_quotes = Dhammapada.new.quotes
@@ -17,11 +16,14 @@ class DharmaQuotes
     end
 
     def get_quote
-        all_quotes = @dhammapada_quotes.concat(@other_texts_quotes)
-            .concat(@four_noble_truths)
-            .concat(@parts_of_eightfold_path)
-            .concat(@pema_chodron_quotes)
-            .concat(@dalai_lama_quotes)
+        all_quotes = [
+            @dhammapada_quotes,
+            @other_texts_quotes,
+            @four_noble_truths,
+            @parts_of_eightfold_path,
+            @pema_chodron_quotes,
+            @dalai_lama_quotes
+        ].flatten
 
         all_quotes.sample
     end
