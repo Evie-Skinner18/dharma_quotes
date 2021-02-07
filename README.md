@@ -1,5 +1,5 @@
-# Dharma Quotes 1.1.0
-## Happy Hacktoberfest everyone! :jack_o_lantern: I will push a new release of the gem on rubygems.org at the beginning of November (so all your contributions can go in the new version) :ghost: :skull: :fire:
+# Dharma Quotes 1.2.0
+## Welcome to the new version  of the gem, complete with RuboCop and the Dalai Lama!:monkey: :heart::skull: :fire:  Thank you to all our Hacktoberfest 2020 contributors!
 
 
 ## Well namaste, it's the Ruby library of Dharma quotes! :heart:
