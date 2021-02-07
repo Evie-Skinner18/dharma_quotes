@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class NobleEightfoldPath
     def initialize
-        @parts_of_eightfold_path = 
-        [
+        @parts_of_eightfold_path =
+          [
             '
             Samma Ditthi: right understanding',
 
@@ -22,10 +24,10 @@ class NobleEightfoldPath
 
             '
             Samma Sati: right mindfulness',
-            
+
             '
             Samma Samadhi: right concentration'
-        ]
+          ]
     end
 
     def quotes

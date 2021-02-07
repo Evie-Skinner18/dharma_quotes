@@ -1,4 +1,6 @@
-require_relative '../lib/quote_libraries/four_noble_truths.rb'
+# frozen_string_literal: true
+
+require_relative '../lib/quote_libraries/four_noble_truths'
 
 RSpec.describe FourNobleTruths do
     describe '::quotes' do

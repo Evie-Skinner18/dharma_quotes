@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class OtherTexts
     def initialize
-        @quotes = 
-        [
+        @quotes =
+          [
             '
             On whom the heart insinctively rests,
             In whom the spirit finds delight,
@@ -63,10 +65,8 @@ class OtherTexts
             As a magician makes illusions
             Of horses, oxen, carts and other things
             Nothing is as it appears. - Samadhi Raja Sutra'
-        ]
+          ]
     end
 
-    def quotes
-        @quotes
-    end
+    attr_reader :quotes
 end

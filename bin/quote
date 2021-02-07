@@ -16,6 +16,8 @@ when 'part_of_noble_eightfold_path'
   dharma_quotes.get_part_of_eightfold_path
 when 'pema_chodron'
   dharma_quotes.get_pema_chodron_quote
+when 'dalai_lama'
+  dharma_quotes.get_dalai_lama_quote
 when '-h' || '--help'
 %(
 argument can be:
@@ -24,6 +26,7 @@ argument can be:
   * noble_truth
   * part_of_noble_eightfold_path
   * pema_chodron
+  * dalai_lama
 
 Examples:
   $> quote

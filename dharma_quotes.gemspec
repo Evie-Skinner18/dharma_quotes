@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Gem::Specification.new do |spec|
   spec.name        = 'dharma_quotes'
   spec.version     = '1.1.1'

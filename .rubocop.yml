@@ -1,0 +1,15 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  NewCops: enable
+  DisplayCopNames: true
+
+  Exclude:
+    - 'bin/quote'
+    - 'dharma_quotes.gemspec'
+
+Layout/IndentationWidth:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false

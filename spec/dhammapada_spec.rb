@@ -1,4 +1,6 @@
-require_relative '../lib/quote_libraries/dhammapada.rb'
+# frozen_string_literal: true
+
+require_relative '../lib/quote_libraries/dhammapada'
 
 RSpec.describe Dhammapada do
     describe '::quotes' do

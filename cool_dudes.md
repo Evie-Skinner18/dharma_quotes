@@ -1,2 +1,3 @@
 # Thanks for contributing goes to...
 Ben McEwen
+Jorge Fuentes (@glis)

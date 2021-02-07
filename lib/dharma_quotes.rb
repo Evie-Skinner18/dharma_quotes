@@ -1,9 +1,11 @@
-require_relative './quote_libraries/dhammapada.rb'
-require_relative './quote_libraries/other_texts.rb'
-require_relative './quote_libraries/four_noble_truths.rb'
-require_relative './quote_libraries/noble_eightfold_path.rb'
-require_relative './quote_libraries/pema_chodron_books.rb'
+# frozen_string_literal: true
 
+require_relative './quote_libraries/dhammapada'
+require_relative './quote_libraries/other_texts'
+require_relative './quote_libraries/four_noble_truths'
+require_relative './quote_libraries/noble_eightfold_path'
+require_relative './quote_libraries/pema_chodron_books'
+require_relative './quote_libraries/dalai_lama'
 
 class DharmaQuotes
     def initialize
@@ -12,13 +14,18 @@ class DharmaQuotes
         @four_noble_truths = FourNobleTruths.new.quotes
         @parts_of_eightfold_path = NobleEightfoldPath.new.quotes
         @pema_chodron_quotes = PemaChodronBooks.new.quotes
+        @dalai_lama_quotes = DalaiLama.new.quotes
     end
 
     def get_quote
-        all_quotes = @dhammapada_quotes.concat(@other_texts_quotes)
-            .concat(@four_noble_truths)
-            .concat(@parts_of_eightfold_path)
-            .concat(@pema_chodron_quotes)
+        all_quotes = [
+          @dhammapada_quotes,
+          @other_texts_quotes,
+          @four_noble_truths,
+          @parts_of_eightfold_path,
+          @pema_chodron_quotes,
+          @dalai_lama_quotes
+        ].flatten
 
         all_quotes.sample
     end
@@ -41,5 +48,9 @@ class DharmaQuotes
 
     def get_pema_chodron_quote
         @pema_chodron_quotes.sample
+    end
+
+    def get_dalai_lama_quote
+        @dalai_lama_quotes.sample
     end
 end
